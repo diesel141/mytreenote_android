@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">mytreenote_android</string>
+    <string name="title">mytreenote</string>
+    <string name="topic_unnest">⏪</string>
+    <string name="topic_nest">⏩</string>
+    <string name="empty_param"></string>
+    <string name="flag_on">1</string>
+    <string name="flag_off">0</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <integer name="unspecified">-1</integer>
+    <string name="path_separator">/</string>
+    <integer name="indent_width">20</integer>
+    <string name="delete_message">トピックを削除しますか</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="path_divider">　&gt;　</string>
+    <string name="home">Home</string>
 </resources>

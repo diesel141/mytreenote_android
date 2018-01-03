@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="indent_width">20dp</dimen>
+    <dimen name="current_topic_text_size">20dp</dimen>
+    <dimen name="topic_text_size">14dp</dimen>
+</resources>
