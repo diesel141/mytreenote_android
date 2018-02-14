@@ -340,7 +340,7 @@ public class TopicMainActivity extends AppCompatActivity implements MytreenoteDa
                 if (event.getAction() == KeyEvent.ACTION_UP) {
                     if (keyCode == KeyEvent.KEYCODE_DEL && TextUtils.isEmpty(mTopicEdit.getText())) {
                         TopicItemView nextItem = (TopicItemView) mTopicsRect.getChildAt(mTopicRecord + 1);
-                        if (nextItem == null || nextItem.mNest > mNest) {
+                        if (nextItem != null && nextItem.mNest > mNest) {
                             return false;
                         } else {
                             deleteTopic();
